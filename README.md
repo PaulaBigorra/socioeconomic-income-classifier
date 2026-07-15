@@ -32,6 +32,7 @@ Mientras que el módulo de Redes Neuronales se enfoca en la precisión técnica,
 - La Solución en Python (ETL & EDA): Limpieza exhaustiva de datos inconsistentes y perfilado demográfico para identificar qué variables correlacionan con los altos ingresos.
 
 - La Solución en Power BI (Dashboard): Replicar la preparación de datos en Power Query para comparar flujos de trabajo (Python vs. BI) y construir la herramienta visual final que monitoree las pérdidas proyectadas por Falsos Positivos.
+  *Por el momento, presenta unicamente la limpieza realizada con Power Query sin gráficos visuales.*
 
 ### Tecnologías Utilizadas
 - Ciencia de Datos & ML: TensorFlow, Keras, Scikit-Learn, Pandas, NumPy, Seaborn, Matplotlib.
