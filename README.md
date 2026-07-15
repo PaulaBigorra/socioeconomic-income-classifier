@@ -1,4 +1,4 @@
-# socioeconomic-income-classifier
+# Socioeconomic Income Classifier & Business Analytics
 
 ![Status](https://img.shields.io/badge/Status-En%20Desarrollo-orange)
 
@@ -9,14 +9,36 @@
 - Año: 2026
 
 ## Resumen
-El repositorio presenta un sistema de aprendizaje supervisado sobre el dataset Census Income (Adult) de la librería ucimlrepo. 
 
- - El objetivo principal es predecir si el ingreso anual de una persona supera los $50,000 USD mediante el análisis de variables como la nacionalidad, ocupación, raza y sexo, entre otras.
-Tiene como enfoque la transición metodológica desde la inferencia estadística clásica, utilizando un modelo de Regresión Logística como línea de base (baseline), hacia el desarrollo, entrenamiento y optimización de arquitecturas avanzadas de redes neuronales profundas para un posterior análisis comparativo de rendimiento.
+Este proyecto nació como un trabajo académico de Inteligencia Artificial para la predicción de ingresos y escaló de forma independiente hacia un caso de estudio de analítica de negocios. El objetivo final es optimizar un presupuesto limitado de marketing directo para el lanzamiento de un crédito hipotecario, minimizando pérdidas de $2 USD por cada cliente no elegible contactado (Falsos Positivos).
 
-- El estado actual de este proyecto refleja una etapa de desarrollo e investigación activa. El notebook disponible representa la bitácora original del proceso, conteniendo el Análisis Exploratorio de Datos (EDA) inicial, las anotaciones analíticas en tiempo real y la evaluación crítica de los diferentes modelos implementados. Se ha priorizado mantener este registro detallado para visibilizar el razonamiento estadístico, la mitigación de errores y las pruebas de hipótesis (tanto exitosas como descartadas). Este trabajo se encuentra en proceso de iteración, funcionando como el cimiento estructural del cual se desprenderán un informe ejecutivo final y un script estructurado con el código definitivo, limpio y optimizado para su posterior despliegue.
+### Estructura del Repositorio
+```text
+├── 1. Modelado Predictivo (Notebook - Finalizado) 
+│    └── Redes Neuronales (Keras/TensorFlow) y Regresión Logística (Baseline) para maximizar la predicción (>50k USD).
+│
+├── 2. Business Analytics & ETL (Notebook Python - Fase Final)
+│    └── Pipeline robusto de limpieza (tratamiento de 16 categorías con nulos), consistencia y EDA enfocado en negocio.
+│
+└── 3. Dashboard Corporativo (Power BI - En Desarrollo)
+     └── Réplica del pipeline en Power Query y modelo DAX para medir el impacto financiero y proyectar pérdidas.
+```
+    
+### El Caso de Negocio: Optimización Financiera
+Mientras que el módulo de Redes Neuronales se enfoca en la precisión técnica, para el análisis en Python y Power BI diseñé una simulación corporativa:
 
+- El Desafío: Un costo operativo de $2 USD por intento de contacto telefónico. El marketing masivo sin segmentar agota el presupuesto en perfiles no elegibles.
 
-- Una vez concluido el período académico, el proyecto se expandirá de forma independiente mediante una profundización rigurosa del Análisis Exploratorio de Datos (EDA) para identificar nuevos patrones en el dataset. Asimismo, se contempla la implementación autónoma de modelos de Bayes Ingenuo y algoritmos de Boosting, con el objetivo de experimentar con nuevos paradigmas analíticos y evaluar su rendimiento frente a los resultados obtenidos con la red neuronal.
+- La Solución en Python (ETL & EDA): Limpieza exhaustiva de datos inconsistentes y perfilado demográfico para identificar qué variables correlacionan con los altos ingresos.
+
+- La Solución en Power BI (Dashboard): Replicar la preparación de datos en Power Query para comparar flujos de trabajo (Python vs. BI) y construir la herramienta visual final que monitoree las pérdidas proyectadas por Falsos Positivos.
+
+### Tecnologías Utilizadas
+- Ciencia de Datos & ML: TensorFlow, Keras, Scikit-Learn, Pandas, NumPy, Seaborn, Matplotlib.
+- Business Intelligence: Power Query, DAX, Power BI.
+
+*NOTA: Módulo de Redes Neuronales desarrollado inicialmente para la materia Inteligencia Artificial (UNaB, 2026). 
+Componentes analíticos y ETL actualmente en expansión independientemente como proyecto principal de portfolio.*
+
 ---
 #university-project #arificial-intelligence #machine-learning #deep-learning 
